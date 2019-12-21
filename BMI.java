@@ -20,6 +20,10 @@ public class BMI{
                 System.out.println("Víš, že potřebuješ nejméně tři délky, right ?");
             }
 
+            else if (x < 0 || y < 0 || z < 0){
+                System.out.println("Jako, jestli při tvoření trojuhelníku chceš jít do jiné dimenze tak ok, ale já bych zůstal u kladných čísel");
+            }
+
             else if ((x+y) > z){
                 System.out.println("Můžeš udělat trojuhelník");
             }
