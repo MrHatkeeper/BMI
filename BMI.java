@@ -20,15 +20,15 @@ public class BMI{
                 System.out.println("Víš, že potřebuješ nejméně tři délky, right ?");
             }
 
-            else if ((x+y) >= z){
+            else if ((x+y) > z){
                 System.out.println("Můžeš udělat trojuhelník");
             }
 
-            else if ((y+z) >=x){
+            else if ((y+z) > x){
                 System.out.println("Můžeš udělat trojuhelník");
             }
 
-            else if ((x+z) >=y){
+            else if ((x+z) > y){
                 System.out.println("Můžeš udělat trojuhelník");
             }
                
