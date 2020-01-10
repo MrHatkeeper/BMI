@@ -24,16 +24,8 @@ public class BMI{
                 System.out.println("Jako, jestli při tvoření trojuhelníku chceš jít do jiné dimenze tak ok, ale já bych zůstal u kladných čísel");
             }
 
-            else if ((x+y) > z){
-                System.out.println("Můžeš udělat trojuhelník");
-            }
-
-            else if ((y+z) > x){
-                System.out.println("Můžeš udělat trojuhelník");
-            }
-
-            else if ((x+z) > y){
-                System.out.println("Můžeš udělat trojuhelník");
+            else if((x+y) > z && (y+z) > x && (x+z) > y){
+                System.out.println("Můžeš udělat trojuhelník"); 
             }
                
             else{
